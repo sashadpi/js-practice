@@ -1,11 +1,11 @@
-//4.1
+// 4.1
 
-// // const radius = 12;
+// const radius = 12;
 // const area = Math.PI * Math.pow(radius, 2);
 
 // console.log(`Area of a circle with radius ${radius} is ${area.toFixed(2)}`);
 
-// //4.2
+// 4.2
 
 // const length = 18;
 // const width = 25;
@@ -13,7 +13,7 @@
 
 // console.log(`Area of a rectangle with length ${length} and width ${width} is ${rectangleArea}`);
 
-//4.3
+// 4.3
 
 const radius = 15;
 const height = 30;
