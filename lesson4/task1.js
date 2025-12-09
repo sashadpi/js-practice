@@ -1,6 +1,6 @@
 let string = 'Hi there!';
 let number = 41;
-let boolean = 5 === '5';
+let boolean = (5 === 15);
 let empty = null;
 let notDefined;
 
