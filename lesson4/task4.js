@@ -1,9 +1,9 @@
 // 4.1
 
-// const radius = 12;
-// const area = Math.PI * Math.pow(radius, 2);
+const radius = 12;
+const area = Math.PI * (radius ** 2);
 
-// console.log(`Area of a circle with radius ${radius} is ${area.toFixed(2)}`);
+console.log(`Area of a circle with radius ${radius} is ${area.toFixed(2)}`);
 
 // 4.2
 
@@ -15,8 +15,8 @@
 
 // 4.3
 
-const radius = 15;
-const height = 30;
-const coneVolume = Math.PI * Math.pow(radius, 2) * height;
+// const radius = 15;
+// const height = 30;
+// const coneVolume = Math.PI * Math.pow(radius, 2) * height;
 
-console.log(`Volume of a cone with radius ${radius} and height ${height} is ${coneVolume.toFixed(2)}`);
+// console.log(`Volume of a cone with radius ${radius} and height ${height} is ${coneVolume.toFixed(2)}`);

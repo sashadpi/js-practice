@@ -8,7 +8,7 @@
 
 //while
 
-const number = 7;
+const number = 2;
 let i = 1;
 while (i <= 10) {
     console.log(`${number} * ${i} = ${number * i}`);
