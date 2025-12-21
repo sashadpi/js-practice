@@ -17,7 +17,7 @@ try {
 }
 
 try {
-    divide(10, 0)
+    divide(10, 0);
 } catch (error) {
     console.log(error.message);
 } finally {
@@ -25,7 +25,7 @@ try {
 }
 
 try {
-    divide('10', 2)
+    divide('10', 2);
 } catch (error) {
     console.log(error.message);
 } finally {
