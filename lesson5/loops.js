@@ -12,7 +12,6 @@
 //         console.log(i);
 // }
 
-
 // for(let i= 0; i<10; i++){
 //      if (i === 3){
 //         break;
@@ -37,24 +36,22 @@
 //     i++;
 // }
 
-
 // let i = 15;
 // do {
 //     console.log(i);
 //     i++;
 // } while (i < 10);
 
-
 // let userInput = 'Test string';
 // let vowelCount = 0;
 
 // for (let i = 0; i < userInput.length; i++) {
 //     let currentChar = userInput[i];
-   
+
 //     if (currentChar === 'a' || currentChar === 'e' || currentChar === 'o' || currentChar === 'u' || currentChar === 'i') {
 //         vowelCount++;
 //         console.log(`Found vowel. Index ${i}, Letter: ${currentChar}`);
-//     }      
+//     }
 // }
 // console. log(`Numbers of vowel letters is: ${vowelCount}`);
 
@@ -64,11 +61,10 @@
 
 // for (let i = 0; i < userInput.length; i++) {
 //     let currentChar = userInput[i];
-   
+
 //     if (vowelList.includes(currentChar)) {
 //         vowelCount++;
 //         console.log(`Found vowel. Index ${i}, Letter: ${currentChar}`);
-//     }      
+//     }
 // }
 // console. log(`Numbers of vowel letters is: ${vowelCount}`);
-
