@@ -1,7 +1,7 @@
 // 4.1
 
 const radius = 12;
-const area = Math.PI * (radius ** 2);
+const area = Math.PI * radius ** 2;
 
 console.log(`Area of a circle with radius ${radius} is ${area.toFixed(2)}`);
 

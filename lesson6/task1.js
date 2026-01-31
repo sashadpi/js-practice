@@ -1,4 +1,4 @@
-function area (width, height) {
-    return width * height;
+function area(width, height) {
+	return width * height;
 }
 console.log(area(5, 10));

@@ -1,5 +1,5 @@
-import { Book } from "./Book.js";
-import { EBook } from "./EBook.js";
+import { Book } from './Book.js';
+import { EBook } from './EBook.js';
 
 const book1 = new Book('1984', 'Джордж Оруэлл', 1949);
 const book2 = new Book('Сияние', 'Стивен Кинг', 1977);
@@ -11,7 +11,7 @@ const eBook3 = new EBook('Граф Монте-Кристо', 'Александр
 
 const books = [book1, book2, book3, eBook1, eBook2, eBook3];
 const oldestBook = Book.getOldestBook(books);
-const ebookFromBook = EBook.fromBook(book3, "epub");
+const ebookFromBook = EBook.fromBook(book3, 'epub');
 ebookFromBook.printInfo();
 console.log('\n');
 
@@ -25,5 +25,5 @@ eBook2.printInfo();
 eBook3.printInfo();
 console.log('\n');
 
-console.log("Найдавніша книга:");
+console.log('Найдавніша книга:');
 oldestBook.printInfo();

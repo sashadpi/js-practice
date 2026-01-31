@@ -4,5 +4,5 @@ const sortedNumbers = [...numbersList];
 
 sortedNumbers.sort((a, b) => a - b);
 
-console.log("Оригінальний масив:", numbersList);
-console.log("Відсортований масив:", sortedNumbers);
+console.log('Оригінальний масив:', numbersList);
+console.log('Відсортований масив:', sortedNumbers);

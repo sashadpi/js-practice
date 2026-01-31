@@ -15,7 +15,6 @@
 // calculateSum(10);
 // calculateSum(10, 40, 40);
 
-
 function getSum(num1, num2) {
 	const result = num1 + num2;
 	return result;

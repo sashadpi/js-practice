@@ -46,7 +46,7 @@
 // console.log(frut);
 
 const numbers = [10, 20, 30, 40, 75, 90, 105];
-// console.log(numbers.indexOf(30));
+console.log(numbers.indexOf(30));
 
 // const numbers = [10, 20, 30, 40];
 // console.log(numbers.includes(35));

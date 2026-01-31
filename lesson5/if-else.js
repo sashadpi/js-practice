@@ -40,7 +40,7 @@
 //     console.log('X is less or equal than 5');
 // }
 
-//Логічні оператори 
+//Логічні оператори
 
 // let isAdult = false;
 // if(!isAdult) {
@@ -74,7 +74,7 @@
 //     console.log('It is an adult');
 // } else if (age <= 0) {
 //     console.log('Incorrect age');
-// }  else { 
+// }  else {
 //     console.log('You are too young/adult');
 // }
 
@@ -85,13 +85,11 @@
 //     console.log('Both numbers are positive');
 // } else if (numberA < 0 || numberB < 0) {
 //     console.log('At least one number is negative')
-// } 
-
+// }
 
 // let age = 17;
 // let message = age >= 18 ? 'Access granted' : 'Access aborted';
 // console.log(message);
-
 
 //Passenger should have enough money on bank account
 //Passenger should be elder than 18
@@ -103,12 +101,16 @@ let baggageWeight = 30;
 let ticketPrice = 500;
 let allowedBaggegeWeight = 20;
 
-if (money > ticketPrice && isPassengerAdult && baggageWeight <= allowedBaggegeWeight) {
-    console.log('You can buy a ticket');
+if (
+	money > ticketPrice &&
+	isPassengerAdult &&
+	baggageWeight <= allowedBaggegeWeight
+) {
+	console.log('You can buy a ticket');
 } else if (money < ticketPrice) {
-    console.log('You dont have enough money')
+	console.log('You dont have enough money');
 } else if (!isPassengerAdult) {
-    console.log('You can not buy a ticket')
+	console.log('You can not buy a ticket');
 } else if (baggageWeight > allowedBaggegeWeight) {
-    console.log('Your baggage is too heavy')
+	console.log('Your baggage is too heavy');
 }

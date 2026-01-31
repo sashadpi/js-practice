@@ -16,7 +16,6 @@
 // let result = (10 + 5) * 20;
 // console.log(result);
 
-
 //Залишок від ділення:
 
 // let res = 10 % 3;
@@ -24,7 +23,6 @@
 
 // let number = 11;
 // console.log(number % 2);
-
 
 //Оператори присвоєння:
 
@@ -65,7 +63,6 @@
 // let b = ++a;
 // console.log(a);
 // console.log(b);
-
 
 //Оператори порівняння:
 

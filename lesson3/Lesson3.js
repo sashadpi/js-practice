@@ -1,4 +1,3 @@
-
 // console.log('Hello from Node JS');
 // console.log("Hi there!");
 
@@ -22,7 +21,7 @@
 // let name = 'Ihor';
 // let lastName = "Petrov";
 // let address = `Kyiv, Ukraine`;
-// let number = '10';  
+// let number = '10';
 // console.log(typeof balance);
 
 // //boolean
@@ -37,7 +36,7 @@
 //NaN
 // let result1 = 10;
 // let result2 = 'Hello';
-// console.log(result1 / result2); 
+// console.log(result1 / result2);
 
 // infinity
 // console.log(10 / 0);
@@ -48,7 +47,7 @@
 
 //symbol
 // let sym1 = Symbol('id');
-// let sym2 = Symbol('id');   
+// let sym2 = Symbol('id');
 // console.log(sym1 === sym2);  // false
 
 //null
